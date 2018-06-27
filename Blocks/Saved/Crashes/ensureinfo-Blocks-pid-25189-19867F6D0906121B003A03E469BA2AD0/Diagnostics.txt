@@ -1,0 +1,51 @@
+Generating report for minidump
+
+Application version 4.17.2.0
+ ... built from changelist 0
+
+OS version Linux 4.13.0-45-generic (network name: airscan01-Z370-AORUS-Gaming-7)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: IsInGameThread() [File:/home/airscan01/airsim/UnrealEngine-4.17/Engine/Source/Runtime/Core/Private/Modules/ModuleManager.cpp] [Line: 335] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!NewReportEnsure(wchar_t const*) + some bytes
+Unknown!FDebug::EnsureFailed(char const*, char const*, int, wchar_t const*) + some bytes
+Unknown!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse(bool, char const*, char const*, int, wchar_t const*, ...) + some bytes
+Unknown!FModuleManager::LoadModule(FName, bool) + some bytes
+Unknown!FModuleManager::LoadModuleChecked(FName, bool) + some bytes
+Unknown!FPNGThumbnailCompressor::CompressImage(TArray<unsigned char, FDefaultAllocator> const&, int, int, TArray<unsigned char, FDefaultAllocator>&) + some bytes
+Unknown!FImageUtils::CompressImageArray(int, int, TArray<FColor, FDefaultAllocator> const&, TArray<unsigned char, FDefaultAllocator>&) + some bytes
+Unknown!RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int) + some bytes
+Unknown!UnrealImageCapture::getSceneCaptureImage(std::__1::vector<msr::airlib::ImageCaptureBase::ImageRequest, std::__1::allocator<msr::airlib::ImageCaptureBase::ImageRequest> > const&, std::__1::vector<msr::airlib::ImageCaptureBase::ImageResponse, std::__1::allocator<msr::airlib::ImageCaptureBase::ImageResponse> >&, bool) + some bytes
+Unknown!msr::airlib::MultirotorApi::simGetImages(std::__1::vector<msr::airlib::ImageCaptureBase::ImageRequest, std::__1::allocator<msr::airlib::ImageCaptureBase::ImageRequest> > const&) const + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x1ac772) [0x7fe7e35f0772] + some bytes
+Unknown!std::__1::function<std::__1::unique_ptr<clmdep_msgpack::v1::object_handle, std::__1::default_delete<clmdep_msgpack::v1::object_handle> > (clmdep_msgpack::v2::object const&)>::operator()(clmdep_msgpack::v2::object const&) const + some bytes
+Unknown!rpc::detail::dispatcher::dispatch_call(clmdep_msgpack::v2::object const&, bool) + some bytes
+Unknown!rpc::detail::dispatcher::dispatch(clmdep_msgpack::v2::object const&, bool) + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x3508d1) [0x7fe7e37948d1] + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x350811) [0x7fe7e3794811] + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x350777) [0x7fe7e3794777] + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x350657) [0x7fe7e3794657] + some bytes
+Unknown!clmdep_asio::detail::task_io_service_operation::complete(clmdep_asio::detail::task_io_service&, std::__1::error_code const&, unsigned long) + some bytes
+Unknown!clmdep_asio::detail::task_io_service::do_run_one(clmdep_asio::detail::scoped_lock<clmdep_asio::detail::posix_mutex>&, clmdep_asio::detail::task_io_service_thread_info&, std::__1::error_code const&) + some bytes
+Unknown!clmdep_asio::detail::task_io_service::run(std::__1::error_code&) + some bytes
+Unknown!clmdep_asio::io_service::run() + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x315d6d) [0x7fe7e3759d6d] + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x315c9d) [0x7fe7e3759c9d] + some bytes
+Unknown!/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so(+0x315bd9) [0x7fe7e3759bd9] + some bytes
+Unknown!std::__1::function<void ()>::operator()() const + some bytes
+Unknown!void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, std::__1::function<void ()> > >(void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fe8fe9216ba] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fe8ec42041d] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

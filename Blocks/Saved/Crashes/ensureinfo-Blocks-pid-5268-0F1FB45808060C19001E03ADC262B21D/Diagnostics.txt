@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.17.2.0
+ ... built from changelist 0
+
+OS version Linux 4.13.0-45-generic (network name: airscan01-Z370-AORUS-Gaming-7)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: IsInGameThread() [File:/home/airscan01/airsim/UnrealEngine-4.17/Engine/Source/Runtime/Core/Private/Modules/ModuleManager.cpp] [Line: 335] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!NewReportEnsure(wchar_t const*) + some bytes
+Unknown!FDebug::EnsureFailed(char const*, char const*, int, wchar_t const*) + some bytes
+Unknown!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse(bool, char const*, char const*, int, wchar_t const*, ...) + some bytes
+Unknown!FModuleManager::LoadModule(FName, bool) + some bytes
+Unknown!FModuleManager::LoadModuleChecked(FName, bool) + some bytes
+Unknown!FPNGThumbnailCompressor::CompressImage(TArray<unsigned char, FDefaultAllocator> const&, int, int, TArray<unsigned char, FDefaultAllocator>&) + some bytes
+Unknown!FImageUtils::CompressImageArray(int, int, TArray<FColor, FDefaultAllocator> const&, TArray<unsigned char, FDefaultAllocator>&) + some bytes
+Unknown!RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int) + some bytes
+Unknown!UnrealImageCapture::getSceneCaptureImage(std::__1::vector<msr::airlib::ImageCaptureBase::ImageRequest, std::__1::allocator<msr::airlib::ImageCaptureBase::ImageRequest> > const&, std::__1::vector<msr::airlib::ImageCaptureBase::ImageResponse, std::__1::allocator<msr::airlib::ImageCaptureBase::ImageResponse> >&, bool) + some bytes
+Unknown!FRecordingThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::Run() + some bytes
+Unknown!FRunnableThreadPThread::_ThreadProc(void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f60cb0a16ba] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f60b8ba041d] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

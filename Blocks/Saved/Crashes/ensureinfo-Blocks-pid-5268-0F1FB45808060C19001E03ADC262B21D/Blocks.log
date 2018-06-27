@@ -1,0 +1,891 @@
+﻿Log file open, 06/25/18 12:00:10
+LogInit: Display: Running engine for game: Blocks
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1462127299) SRandInit(1462127299).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.041272
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin AirSim
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: ++UE4+Release-4.17-CL-0
+LogInit: Engine Version: 4.17.2-0+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-0+++UE4+Release-4.17
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Jun 20 2018 10:00:42
+LogInit: Compiled with Clang: 3.9.1 (tags/RELEASE_391/rc2)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: /home/airscan01/airsim/UnrealEngine-4.17/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.25-04.00.10:979][  0]LogInit: Initializing SDL.
+[2018.06.25-04.00.10:979][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.06.25-04.00.11:205][  0]LogInit: Initialized SDL 2.0.4 revision: 10374 (hg-10374:dccf51aee79b with EpicExtensions) (compiled against 2.0.4)
+[2018.06.25-04.00.11:205][  0]LogInit: Display metrics:
+[2018.06.25-04.00.11:205][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.06.25-04.00.11:205][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.06.25-04.00.11:205][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.06.25-04.00.11:205][  0]LogInit:     Left=57, Top=24, Right=1920, Bottom=1080
+[2018.06.25-04.00.11:205][  0]LogInit:   VirtualDisplayRect:
+[2018.06.25-04.00.11:205][  0]LogInit:     Left=57, Top=24, Right=1920, Bottom=1080
+[2018.06.25-04.00.11:205][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2018.06.25-04.00.11:205][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2018.06.25-04.00.11:205][  0]LogInit:   Number of monitors: 1
+[2018.06.25-04.00.11:205][  0]LogInit:     Monitor 0
+[2018.06.25-04.00.11:205][  0]LogInit:       Name: PHL 227E7 22"
+[2018.06.25-04.00.11:205][  0]LogInit:       ID: display0
+[2018.06.25-04.00.11:205][  0]LogInit:       NativeWidth: 1920
+[2018.06.25-04.00.11:205][  0]LogInit:       NativeHeight: 1080
+[2018.06.25-04.00.11:205][  0]LogInit:       bIsPrimary: true
+[2018.06.25-04.00.11:205][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.06.25-04.00.11:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.06.25-04.00.11:218][  0]LogInit: Linux hardware info:
+[2018.06.25-04.00.11:218][  0]LogInit:  - we are the first instance of this executable
+[2018.06.25-04.00.11:218][  0]LogInit:  - this process' id (pid) is 3725, parent process' id (ppid) is 3643
+[2018.06.25-04.00.11:218][  0]LogInit:  - we are not running under debugger
+[2018.06.25-04.00.11:219][  0]LogInit:  - machine network name is 'airscan01-Z370-AORUS-Gaming-7'
+[2018.06.25-04.00.11:219][  0]LogInit:  - user name is 'airscan01' (airscan01)
+[2018.06.25-04.00.11:219][  0]LogInit:  - we're logged in locally
+[2018.06.25-04.00.11:219][  0]LogInit:  - we're running with rendering
+[2018.06.25-04.00.11:219][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz' (signature: 0x906EA)
+[2018.06.25-04.00.11:219][  0]LogInit:  - Number of physical cores available for the process: 6
+[2018.06.25-04.00.11:219][  0]LogInit:  - Number of logical cores available for the process: 12
+[2018.06.25-04.00.11:219][  0]LogInit:  - Cache line size: 64
+[2018.06.25-04.00.11:219][  0]LogInit:  - Memory allocator used: binned2
+[2018.06.25-04.00.11:219][  0]LogLinux: Benchmarking clocks:
+[2018.06.25-04.00.11:219][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 64000435 (64000K, 64M) calls per second without zero deltas.
+[2018.06.25-04.00.11:219][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 64984000 (64984K, 65M) calls per second without zero deltas.
+[2018.06.25-04.00.11:219][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 4457308 (4457K, 4M) calls per second without zero deltas.
+[2018.06.25-04.00.11:219][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 221400280 (221400K, 221M) calls per second with 99.999883% zero deltas.
+[2018.06.25-04.00.11:219][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.06.25-04.00.11:219][  0]LogInit: Linux-specific commandline switches:
+[2018.06.25-04.00.11:219][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.06.25-04.00.11:219][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.06.25-04.00.11:219][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.06.25-04.00.11:219][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.06.25-04.00.11:219][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.06.25-04.00.11:219][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.06.25-04.00.11:219][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.06.25-04.00.11:220][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15980 MB, 16363988 KB, 16756723712 bytes)
+[2018.06.25-04.00.11:279][  0]LogInit: Using OS detected language (en-PH).
+[2018.06.25-04.00.11:279][  0]LogInit: Using OS detected locale (en-PH).
+[2018.06.25-04.00.11:285][  0]LogTextLocalizationManager: No specific localization for 'en-PH' exists, so the 'en' localization will be used.
+[2018.06.25-04.00.12:400][  0]LogRHI: Initializing OpenGL RHI
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_RENDERER: GeForce GTX 1080 Ti/PCIe/SSE2
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 390.30
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.06.25-04.00.12:400][  0]LogRHI: OpenGL Extensions:
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.06.25-04.00.12:400][  0]LogRHI:   GL_ARB_base_instance
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_clear_texture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_clip_control
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_compute_shader
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_copy_image
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_cull_distance
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_debug_output
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_depth_texture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_derivative_control
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_program
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_imaging
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_multi_bind
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_multisample
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_multitexture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_point_parameters
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_point_sprite
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_robustness
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sample_locations
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sample_shading
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_clock
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_objects
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_precision
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_shadow
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sparse_texture2
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_spirv_extensions
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_sync
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_compression
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_float
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_gather
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_rg
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_storage
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_texture_view
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_timer_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_program
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_viewport_array
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ARB_window_pos
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ATI_texture_float
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_S3_s3tc
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_abgr
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_bgra
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_blend_color
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.06.25-04.00.12:401][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_fog_coord
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_packed_float
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_point_parameters
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_raster_multisample
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_secondary_color
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_sparse_texture2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture3D
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_array
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_integer
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_lod
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_storage
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_timer_query
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_vertex_array
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_debug
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_memory_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_no_error
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_robustness
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_semaphore
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KTX_buffer_region
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_bindless_texture
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_blend_square
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_command_list
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_compute_program5
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_conditional_render
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_conservative_raster
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_copy_image
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_depth_clamp
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_draw_texture
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fence
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fill_rectangle
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_float_buffer
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fog_distance
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fragment_program
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fragment_program2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_program4
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_program5
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_half_float
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_occlusion_query
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_path_rendering
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_point_sprite
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_primitive_restart
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_query_resource
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_query_resource_tag
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_register_combiners
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_register_combiners2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_sample_locations
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_barrier
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_multisample
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_shader
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_shader2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_texture_shader3
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_transform_feedback
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_program
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_program2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_vertex_program3
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_viewport_array2
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_viewport_swizzle
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NVX_conditional_render
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.06.25-04.00.12:402][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.06.25-04.00.12:403][  0]LogRHI:   GL_SGIX_shadow
+[2018.06.25-04.00.12:403][  0]LogRHI:   GL_SUN_slice_accum
+[2018.06.25-04.00.12:403][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2018.06.25-04.00.12:403][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.06.25-04.00.12:404][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.06.25-04.00.12:404][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.06.25-04.00.12:407][  0]LogRHI: Texture pool is 7884 MB (70% of 11264 MB)
+[2018.06.25-04.00.12:407][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Intermediate/Shaders/WorkingDirectory/3725/).
+[2018.06.25-04.00.12:407][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Intermediate/Shaders/tmp/0003A1180C060C1900000197574DCFCC/'.
+[2018.06.25-04.00.12:407][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.25-04.00.13:598][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.25-04.00.14:020][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.25-04.00.14:080][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.25-04.00.14:134][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.25-04.00.14:194][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.25-04.00.14:254][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.25-04.00.14:314][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.25-04.00.14:368][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.25-04.00.14:368][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.06.25-04.00.14:607][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.25-04.00.14:950][  0]LogDerivedDataCache: Loaded boot cache 0.34s 120MB ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/DerivedDataCache/Boot.ddc.
+[2018.06.25-04.00.14:950][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/DerivedDataCache/Boot.ddc
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.25-04.00.14:951][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.25-04.00.14:962][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.06.25-04.00.14:963][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.25-04.00.14:964][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.06.25-04.00.14:964][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.06.25-04.00.15:164][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2018.06.25-04.00.15:406][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.06.25-04.00.15:407][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.06.25-04.00.15:704][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.25-04.00.15:704][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.25-04.00.15:704][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.25-04.00.15:704][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.06.25-04.00.15:704][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.25-04.00.15:704][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.06.25-04.00.15:895][  0]LogNetVersion: Blocks , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2429052791)
+[2018.06.25-04.00.16:308][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.015744 seconds
+[2018.06.25-04.00.16:312][  0]LogUObjectArray: 35594 objects as part of root set at end of initial load.
+[2018.06.25-04.00.16:312][  0]LogUObjectAllocator: 7455408 out of 0 bytes used by permanent object pool.
+[2018.06.25-04.00.16:312][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.25-04.00.16:411][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.06.25-04.00.18:878][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.25-04.00.19:799][  0]LogAirSim: StartupModule: AirSim plugin
+[2018.06.25-04.00.19:901][  0]SourceControl: Source control is disabled
+[2018.06.25-04.00.19:901][  0]SourceControl: Source control is disabled
+[2018.06.25-04.00.19:956][  0]SourceControl: Source control is disabled
+[2018.06.25-04.00.20:007][  0]SourceControl: Source control is disabled
+[2018.06.25-04.00.20:517][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.25-04.00.20:989][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.25-04.00.21:448][  0]LogEngine: Initializing Engine...
+[2018.06.25-04.00.21:449][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.25-04.00.21:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.25-04.00.21:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.25-04.00.21:931][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.25-04.00.22:265][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2018.06.25-04.00.22:268][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2018.06.25-04.00.22:268][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2018.06.25-04.00.22:268][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2018.06.25-04.00.22:268][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2018.06.25-04.00.22:269][  0]LogInit: FAudioDevice initialized.
+[2018.06.25-04.00.22:324][  0]LogDerivedDataCache: Saved boot cache 0.05s 120MB ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/DerivedDataCache/Boot.ddc.
+[2018.06.25-04.00.22:555][  0]LogInit: Texture streaming: Enabled
+[2018.06.25-04.00.22:592][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.25-04.00.23:020][  0]LogInit: Transaction tracking system initialized
+[2018.06.25-04.00.23:328][  0]BlueprintLog: New page: Editor Load
+[2018.06.25-04.00.24:440][  0]LocalizationService: Localization service is disabled
+[2018.06.25-04.00.24:831][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.25-04.00.25:125][  0]LogConsoleResponse: Display: 
+[2018.06.25-04.00.25:325][  0]LogFileCache: Scanning file cache for directory '/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Content/' took 0.00s
+[2018.06.25-04.00.25:325][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.25-04.00.25:325][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.25-04.00.25:325][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.25-04.00.26:239][  0]SourceControl: Source control is disabled
+[2018.06.25-04.00.26:239][  0]Cmd: MAP LOAD FILE="../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Content/FlyingCPP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.25-04.00.26:241][  0]LightingResults: New page: Lighting Build
+[2018.06.25-04.00.26:283][  0]MapCheck: New page: Map Check
+[2018.06.25-04.00.26:283][  0]LightingResults: New page: Lighting Build
+[2018.06.25-04.00.26:427][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.06.25-04.00.26:437][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.25-04.00.26:453][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.25-04.00.26:466][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 13.616ms to complete.
+[2018.06.25-04.00.26:466][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.227
+[2018.06.25-04.00.26:681][  0]LogCollectionManager: Loaded 0 collections in 0.001893 seconds
+[2018.06.25-04.00.26:708][  0]LogFileCache: Scanning file cache for directory '/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/Collections/' took 0.00s
+[2018.06.25-04.00.26:708][  0]LogFileCache: Scanning file cache for directory '/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Content/Developers/airscan01/Collections/' took 0.00s
+[2018.06.25-04.00.26:708][  0]LogFileCache: Scanning file cache for directory '/home/airscan01/airsim/AirSim-Unreal4.16/Unreal/Environments/Blocks/Content/Collections/' took 0.00s
+[2018.06.25-04.00.26:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2389 classes and 489 folders.
+[2018.06.25-04.00.26:711][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.25-04.00.26:811][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.25-04.00.26:873][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.25-04.00.26:925][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.25-04.00.27:037][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.25-04.00.27:037][  0]LogLoad: (Engine Initialization) Total time: 17.26 seconds
+[2018.06.25-04.00.27:037][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.25-04.00.27:037][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.06.25-04.00.27:381][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.25-04.00.27:393][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.25-04.00.27:416][  0]LogSlate: Took 0.001934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.25-04.00.27:607][  0]LogRenderer: Reallocating scene render targets to support 1172x584 Format 10 NumSamples 1 (Frame:1).
+[2018.06.25-04.00.27:728][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.00.27:739][  0]LogInit: Adding external input plugin.
+[2018.06.25-04.00.27:756][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.25-04.00.27:776][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.25-04.00.27:798][  1]LogAssetRegistry: Asset discovery search completed in 12.6337 seconds
+[2018.06.25-04.00.27:799][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.25-04.00.27:799][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2018.06.25-04.00.36:178][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_5)
+[2018.06.25-04.01.36:915][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_151)
+[2018.06.25-04.01.38:832][509]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.39:205][548]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.42:054][878]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.44:231][125]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.44:359][131]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.46:283][347]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.01.48:545][579]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.03.02:852][411]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.03.08:870][ 95]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.03.13:811][657]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.03.18:899][977]LogSourceControl: Warning: '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/' is not part of a Git repository
+[2018.06.25-04.03.28:532][484]SourceControl: Source control is disabled
+[2018.06.25-04.04.24:122][149]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.04.26:701][439]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.04.29:650][779]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.04.32:493][914]LogSourceControl: Warning: '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/' is not part of a Git repository
+[2018.06.25-04.05.33:592][282]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.05.38:129][797]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.05.38:141][797]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.05.38:438][802]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.06.25-04.05.38:678][811]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.15.49:744][773]SourceControl: On branch master
+[2018.06.25-04.15.49:744][773]SourceControl: Initial commit
+[2018.06.25-04.15.49:744][773]SourceControl: Changes to be committed:
+[2018.06.25-04.15.49:744][773]SourceControl:   (use "git rm --cached <file>..." to unstage)
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   .gitignore
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Blocks.uproject
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultEditor.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultEditorPerProjectUserSettings.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultEngine.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultGame.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultGameUserSettings.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Config/DefaultInput.ini
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Flying/Meshes/BaseMaterial.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Flying/Meshes/GrayMaterial.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/FlyingCPP/Maps/FlyingExampleMap.umap
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Geometry/Meshes/1M_Cube.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Geometry/Meshes/CubeMaterial.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Content/Geometry/Meshes/TemplateFloor.uasset
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks.Target.4.15.cs
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks.Target.cs
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks/Blocks.Build.4.15.cs
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks/Blocks.Build.cs
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks/Blocks.cpp
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/Blocks/Blocks.h
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/BlocksEditor.Target.4.15.cs
+[2018.06.25-04.15.49:744][773]SourceControl: 	new file:   Source/BlocksEditor.Target.cs
+[2018.06.25-04.15.49:744][773]SourceControl: Untracked files:
+[2018.06.25-04.15.49:744][773]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.06.25-04.15.49:744][773]SourceControl: 	.kdev4/
+[2018.06.25-04.15.49:744][773]SourceControl: 	Blocks.kdev4
+[2018.06.25-04.15.49:744][773]SourceControl: 	Blocks.pro
+[2018.06.25-04.15.49:744][773]SourceControl: 	Blocks.workspace
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksCodeCompletionFolders.txt
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksCodeLitePreProcessor.txt
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksConfig.pri
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksDefines.pri
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksHeader.pri
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksIncludes.pri
+[2018.06.25-04.15.49:744][773]SourceControl: 	BlocksSource.pri
+[2018.06.25-04.15.49:744][773]SourceControl: 	CMakeLists.txt
+[2018.06.25-04.15.49:744][773]SourceControl: 	GenerateProjectFiles.bat
+[2018.06.25-04.15.49:744][773]SourceControl: 	GenerateProjectFiles.sh
+[2018.06.25-04.15.49:744][773]SourceControl: 	Makefile
+[2018.06.25-04.15.49:744][773]SourceControl: 	Plugins/
+[2018.06.25-04.15.49:744][773]SourceControl: 	clean.bat
+[2018.06.25-04.15.49:744][773]SourceControl: 	clean.sh
+[2018.06.25-04.15.49:744][773]SourceControl: 	package.bat
+[2018.06.25-04.15.49:744][773]SourceControl: 	update_from_git.bat
+[2018.06.25-04.15.49:744][773]SourceControl: 	update_from_git.sh
+[2018.06.25-04.15.49:744][773]SourceControl: 	update_to_git.bat
+[2018.06.25-04.15.49:744][773]SourceControl: 	update_to_git.sh
+[2018.06.25-04.16.14:460][900]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.16.26:726][317]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.16.36:965][449]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.18.10:890][ 97]LogTemp: Repeating last play command: Simulate
+[2018.06.25-04.18.10:917][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.18.10:917][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.25-04.18.10:917][ 97]PIE: New page: SIE session: FlyingExampleMap (Jun 25, 2018, 8:18:10 PM)
+[2018.06.25-04.18.10:917][ 97]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap
+[2018.06.25-04.18.10:944][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026655s)
+[2018.06.25-04.18.10:945][ 97]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.06.25-04.18.10:945][ 97]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2018.06.25-04.18.10:945][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.027609s)
+[2018.06.25-04.18.10:959][ 97]LogALAudio: ALAudio device opened : OpenAL Soft
+[2018.06.25-04.18.10:960][ 97]LogALAudio: AL_VENDOR      : OpenAL Community
+[2018.06.25-04.18.10:960][ 97]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2018.06.25-04.18.10:960][ 97]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2018.06.25-04.18.10:960][ 97]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2018.06.25-04.18.10:960][ 97]LogInit: FAudioDevice initialized.
+[2018.06.25-04.18.11:013][ 97]LogLoad: Game class is 'AirSimGameMode'
+[2018.06.25-04.18.11:019][ 97]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.06.25-12.18.11
+[2018.06.25-04.18.11:019][ 97]LogWorld: Bringing up level for play took: 0.004562
+[2018.06.25-04.18.11:060][ 97]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.06.25-04.18.11:128][ 97]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.18.13:519][ 97]Cmd: r.CustomDepth 3
+[2018.06.25-04.18.13:520][ 97]r.CustomDepth = "3"
+[2018.06.25-04.18.13:525][ 97]LogActor: Warning: BP_CameraDirector_C /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.BP_CameraDirector_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.25-04.18.13:718][ 97]PIE: Play in editor start time for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap 2.801
+[2018.06.25-04.18.13:739][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.18.37:863][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_6)
+[2018.06.25-04.19.03:805][269]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.05:303][436]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.05:480][453]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.07:727][719]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.18:233][948]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.22:215][421]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.19.36:864][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_6)
+[2018.06.25-04.19.39:911][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_6)
+[2018.06.25-04.19.53:585][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.19.53:644][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.19.53:654][  9]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2018.06.25-04.19.56:823][363]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.20.01:760][919]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.20.09:943][873]LogSlate: Took 0.000061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.25-04.20.09:974][873]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.20.10:258][873]LogSavePackage: Save=259.29ms
+[2018.06.25-04.20.10:258][873]LogSavePackage: Moving '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/UEDPCFlyingExampleMap18E6D74E0A060C19001400009EAF9C0C.tmp' to '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/Autosaves/Game/FlyingCPP/Maps/UEDPCFlyingExampleMap.umap'
+[2018.06.25-04.20.10:259][873]LogSavePackage: Display: Finished SavePackage ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/Autosaves/Game/FlyingCPP/Maps/UEDPCFlyingExampleMap.umap
+[2018.06.25-04.20.10:263][873]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.06.25-04.20.29:293][241]LogSlate: Took 0.000049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.25-04.20.29:593][242]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.22.20:101][442]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.22.27:174][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.22.27:174][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.25-04.22.27:174][238]PIE: New page: SIE session: FlyingExampleMap (Jun 25, 2018, 8:22:27 PM)
+[2018.06.25-04.22.27:174][238]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap
+[2018.06.25-04.22.27:199][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024270s)
+[2018.06.25-04.22.27:199][238]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.06.25-04.22.27:199][238]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2018.06.25-04.22.27:200][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.025266s)
+[2018.06.25-04.22.27:212][238]LogALAudio: ALAudio device opened : OpenAL Soft
+[2018.06.25-04.22.27:213][238]LogALAudio: AL_VENDOR      : OpenAL Community
+[2018.06.25-04.22.27:213][238]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2018.06.25-04.22.27:213][238]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2018.06.25-04.22.27:213][238]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2018.06.25-04.22.27:213][238]LogInit: FAudioDevice initialized.
+[2018.06.25-04.22.27:251][238]LogLoad: Game class is 'AirSimGameMode'
+[2018.06.25-04.22.27:256][238]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.06.25-12.22.27
+[2018.06.25-04.22.27:256][238]LogWorld: Bringing up level for play took: 0.004535
+[2018.06.25-04.22.27:343][238]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.22.29:348][238]Cmd: r.CustomDepth 3
+[2018.06.25-04.22.29:348][238]r.CustomDepth = "3"
+[2018.06.25-04.22.30:367][238]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.06.25-04.22.30:367][238]LogActor: Warning: BP_CameraDirector_C /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.BP_CameraDirector_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.25-04.22.30:369][238]PIE: Play in editor start time for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap 3.196
+[2018.06.25-04.22.30:387][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.22.34:085][653]LogEditorViewport: Clicking on Actor (LMB): SuvCarPawn_C (SuvCarPawn)
+[2018.06.25-04.22.50:111][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_4)
+[2018.06.25-04.22.51:942][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_4)
+[2018.06.25-04.22.52:999][340]LogEditorViewport: Clicking on Actor (LMB): SuvCarPawn_C (SuvCarPawn)
+[2018.06.25-04.23.02:740][209]LogEditorViewport: Clicking on Actor (LMB): SuvCarPawn_C (SuvCarPawn)
+[2018.06.25-04.23.19:414][618]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-239, -87 is larger than threshold 250)
+[2018.06.25-04.23.19:589][628]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-242, -103 is larger than threshold 250)
+[2018.06.25-04.23.19:780][639]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-239, -119 is larger than threshold 250)
+[2018.06.25-04.23.19:957][649]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-229, -121 is larger than threshold 250)
+[2018.06.25-04.23.21:739][751]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-219, 165 is larger than threshold 250)
+[2018.06.25-04.23.21:920][762]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-219, 192 is larger than threshold 250)
+[2018.06.25-04.23.22:103][773]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-219, 193 is larger than threshold 250)
+[2018.06.25-04.23.22:269][783]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-219, 214 is larger than threshold 250)
+[2018.06.25-04.23.22:458][794]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-222, 265 is larger than threshold 250)
+[2018.06.25-04.23.22:623][804]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-223, 295 is larger than threshold 250)
+[2018.06.25-04.23.22:805][815]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-202, 350 is larger than threshold 250)
+[2018.06.25-04.23.22:986][826]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-187, 386 is larger than threshold 250)
+[2018.06.25-04.23.23:167][837]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-187, 387 is larger than threshold 250)
+[2018.06.25-04.23.23:367][849]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-187, 388 is larger than threshold 250)
+[2018.06.25-04.23.23:577][861]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-136, 465 is larger than threshold 250)
+[2018.06.25-04.23.23:732][870]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-112, 515 is larger than threshold 250)
+[2018.06.25-04.23.23:923][881]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-94, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:087][890]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-93, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:288][902]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-92, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:453][912]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-47, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:639][923]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-28, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:804][933]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-16, 527 is larger than threshold 250)
+[2018.06.25-04.23.24:985][944]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (14, 527 is larger than threshold 250)
+[2018.06.25-04.23.25:168][955]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (16, 527 is larger than threshold 250)
+[2018.06.25-04.23.25:401][969]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (17, 527 is larger than threshold 250)
+[2018.06.25-04.23.25:569][979]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (76, 527 is larger than threshold 250)
+[2018.06.25-04.23.25:745][989]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (120, 527 is larger than threshold 250)
+[2018.06.25-04.23.25:936][  0]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (148, 527 is larger than threshold 250)
+[2018.06.25-04.23.37:697][295]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.06.25-04.23.44:646][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.23.44:705][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.23.44:716][ 75]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2018.06.25-04.28.12:942][473]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2018.06.25-04.28.16:450][851]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.28.18:520][ 75]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.28.18:520][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.25-04.28.18:521][ 75]PIE: New page: SIE session: FlyingExampleMap (Jun 25, 2018, 8:28:18 PM)
+[2018.06.25-04.28.18:521][ 75]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap
+[2018.06.25-04.28.18:548][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027035s)
+[2018.06.25-04.28.18:549][ 75]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.06.25-04.28.18:549][ 75]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2018.06.25-04.28.18:549][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.027885s)
+[2018.06.25-04.28.18:564][ 75]LogALAudio: ALAudio device opened : OpenAL Soft
+[2018.06.25-04.28.18:564][ 75]LogALAudio: AL_VENDOR      : OpenAL Community
+[2018.06.25-04.28.18:564][ 75]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2018.06.25-04.28.18:564][ 75]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2018.06.25-04.28.18:564][ 75]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2018.06.25-04.28.18:564][ 75]LogInit: FAudioDevice initialized.
+[2018.06.25-04.28.18:607][ 75]LogLoad: Game class is 'AirSimGameMode'
+[2018.06.25-04.28.18:612][ 75]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.06.25-12.28.18
+[2018.06.25-04.28.18:612][ 75]LogWorld: Bringing up level for play took: 0.004470
+[2018.06.25-04.28.18:666][ 75]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.28.20:357][ 75]Cmd: r.CustomDepth 3
+[2018.06.25-04.28.20:357][ 75]r.CustomDepth = "3"
+[2018.06.25-04.28.20:378][ 75]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.06.25-04.28.20:378][ 75]LogActor: Warning: BP_CameraDirector_C /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.BP_CameraDirector_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.25-04.28.20:387][ 75]PIE: Play in editor start time for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap 1.867
+[2018.06.25-04.28.20:403][ 75]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.28.30:055][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.28.30:097][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.06.25-04.28.30:108][201]LogALAudio: Closing ALAudio device : OpenAL Soft
+[2018.06.25-04.28.33:122][550]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.28.35:574][817]LogLinux: Setting swap interval to 'Immediate'
+[2018.06.25-04.28.35:783][817]LogSavePackage: Save=188.75ms
+[2018.06.25-04.28.35:783][817]LogSavePackage: Moving '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/UEDPCFlyingExampleMap197D63DC23060C19001C0254BCD265A1.tmp' to '../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/Autosaves/Game/FlyingCPP/Maps/UEDPCFlyingExampleMap.umap'
+[2018.06.25-04.28.35:785][817]LogSavePackage: Display: Finished SavePackage ../../../../AirSim-Unreal4.16/Unreal/Environments/Blocks/Saved/Autosaves/Game/FlyingCPP/Maps/UEDPCFlyingExampleMap.umap
+[2018.06.25-04.28.35:787][817]LogEditorTransaction: Undo Spawn Play From Here Start
